@@ -13,7 +13,7 @@ from airflow.providers.google.cloud.operators.dataproc import (
 PROJECT_ID = "linen-tracer-465519-a3"
 REGION = "us-east1"
 CLUSTER_NAME = "my-demo-cluster2"
-COMPOSER_BUCKET = "us-central1-healthcare-proj-57970292-bucket" ## change this 
+COMPOSER_BUCKET = "us-central1-healthcare-proj-1c942c15-bucket" ## change this 
 
 # Spark resource tuning (reusable across jobs)
 SPARK_PROPERTIES = {
